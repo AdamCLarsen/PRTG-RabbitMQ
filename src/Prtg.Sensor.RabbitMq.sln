@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prtg.Sensor.RabbitMq", "Prtg.Sensor.RabbitMq\Prtg.Sensor.RabbitMq.csproj", "{AB0C2065-B4BA-4EFE-8EA8-D5D104A6DAF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prtg.Sensor.RabbitMq.Tests", "..\Prtg.Sensor.RabbitMq.Tests\Prtg.Sensor.RabbitMq.Tests.csproj", "{4659B242-B9DA-42DE-B78C-3294C73A4A80}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AB0C2065-B4BA-4EFE-8EA8-D5D104A6DAF3} = {AB0C2065-B4BA-4EFE-8EA8-D5D104A6DAF3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB0C2065-B4BA-4EFE-8EA8-D5D104A6DAF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB0C2065-B4BA-4EFE-8EA8-D5D104A6DAF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB0C2065-B4BA-4EFE-8EA8-D5D104A6DAF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB0C2065-B4BA-4EFE-8EA8-D5D104A6DAF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4659B242-B9DA-42DE-B78C-3294C73A4A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4659B242-B9DA-42DE-B78C-3294C73A4A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4659B242-B9DA-42DE-B78C-3294C73A4A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4659B242-B9DA-42DE-B78C-3294C73A4A80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
