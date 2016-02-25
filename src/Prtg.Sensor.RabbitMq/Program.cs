@@ -183,6 +183,13 @@ namespace Prtg.Sensor.RabbitMq
 				Value = data.memory
 			});
 
+			result.Add(new PrtgResult
+			{
+				Channel = "Acknowledge",
+				CustomUnit = "msg/sec",
+				Value = ReadDec(() => data.message_stats.ack_details.rate)
+			});
+
 			return result;
 		}
 
